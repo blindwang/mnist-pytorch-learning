@@ -18,10 +18,10 @@
 
 ![](result/compare_optim.png)
 
-![image-20230409200050774](https://blindwang-blog-1316878103.cos.ap-beijing.myqcloud.com/blindwang_iamges/image-20230409200050774.png)
+![image-20230409200050774](mnist_exp_files/image-20230409200050774.png)
 
 
-![image-20230409200140859](https://blindwang-blog-1316878103.cos.ap-beijing.myqcloud.com/blindwang_iamges/image-20230409200140859.png)
+![image-20230409200140859](mnist_exp_files/image-20230409200140859.png)
 
 采用**Adam**优化器显著提升模型效果，**增加网络深度**在增加训练轮数的条件下也能提升模型效果。
 
@@ -35,9 +35,9 @@
 
 因此，在设计深度学习模型时，需要仔细考虑激活函数和网络结构的选择，避免出现梯度消失和过拟合等问题。同时，也需要通过合适的正则化方法和数据增强技术等手段来提高模型的泛化能力。
 
-![image-20230409200223822](https://blindwang-blog-1316878103.cos.ap-beijing.myqcloud.com/blindwang_iamges/image-20230409200223822.png)
+![image-20230409200223822](mnist_exp_files/image-20230409200223822.png)
 
-![image-20230409200243951](https://blindwang-blog-1316878103.cos.ap-beijing.myqcloud.com/blindwang_iamges/image-20230409200243951.png)
+![image-20230409200243951](mnist_exp_files/image-20230409200243951.png)
 
 ## 代码说明
 
