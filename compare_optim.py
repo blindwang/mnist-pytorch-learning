@@ -36,7 +36,6 @@ optimizers = [
     {'name': 'RMSprop', 'optimizer': optim.RMSprop, 'lr': 0.01},
     {'name': 'Adadelta', 'optimizer': optim.Adadelta, 'lr': 0.01},
     {'name': 'Adagrad', 'optimizer': optim.Adagrad, 'lr': 0.01},
-    {'name': 'SparseAdam', 'optimizer': optim.SparseAdam, 'lr': 0.01},
 ]
 
 """默认超参数"""

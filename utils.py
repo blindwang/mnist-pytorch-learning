@@ -45,7 +45,7 @@ def plot_loss_acc(experiment_id, csv_path, pic_path):
     # print(dfw)
     dfw_acc = dfw[(dfw['run'].str.startswith("compare_optim")) & (dfw['tag'] == "accuracy")]
     dfw_loss = dfw[(dfw['run'].str.startswith("compare_optim")) & (dfw['tag'] == "loss")]
-
+    # print(dfw)
     # Get the optimizer value for each row of the validation DataFrame.
     optimizer_acc = dfw_acc.run.apply(lambda run: run.split(",")[0].split('\\')[1])
     optimizer_loss = dfw_loss.run.apply(lambda run: run.split(",")[0].split('\\')[1])
